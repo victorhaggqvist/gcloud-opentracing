@@ -6,7 +6,7 @@ import (
 
 	trace "cloud.google.com/go/trace/apiv1"
 	"github.com/golang/protobuf/ptypes/timestamp"
-	gax "github.com/googleapis/gax-go"
+	gax "github.com/googleapis/gax-go/v2"
 	basictracer "github.com/opentracing/basictracer-go"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
